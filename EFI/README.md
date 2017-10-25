@@ -2,11 +2,9 @@
 
 > G400 安装 macOS 的 EFI 文件。
 
-
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fkpyp60mnuj30ga09ugo2.jpg)
 
 ### 基本情况
-
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fkpyp60mnuj30ga09ugo2.jpg)
 
 - [x] 集成显卡 HD4K；
 - [x] 屏蔽独立显卡 AMD8570M（DSDT + SSDT-Disable_DGPU）；

@@ -50,19 +50,19 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-v slide=0 dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcbeta</string>
+		<string>slide=0 dart=0 nv_disable=1 kext-dev-mode=1 debug=0x100 -alcbeta</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
-		<key>Fast</key>
-		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>Secure</key>
 		<false/>
+		<key>Timeout</key>
+		<integer>3</integer>
 		<key>XMPDetection</key>
 		<false/>
 	</dict>
@@ -77,6 +77,8 @@
 		<dict>
 			<key>Inject</key>
 			<string>3</string>
+			<key>ResetHDA</key>
+			<true/>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -204,8 +206,6 @@
 		<true/>
 		<key>ProductName</key>
 		<string>MacBookPro10,1</string>
-		<key>SerialNumber</key>
-		<string>C02LG384DKQ1</string>
 		<key>Trust</key>
 		<false/>
 		<key>Version</key>
